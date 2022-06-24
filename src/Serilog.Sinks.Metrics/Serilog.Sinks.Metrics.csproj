@@ -5,11 +5,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsPackable>true</IsPackable>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <PackageLicenseExpression>MIT OR WTFPL</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageTags>Serilog Sink Metrics MetricsSink</PackageTags>
+    <Description>A Serilog sink that creates a Counters for each LogEventLevel (Debug, Info, Warning, Error, etc)</Description>
+    <RepositoryUrl>https://github.com/8/serilog-sinks-metrics</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     <Authors>Martin Kramer</Authors>
     <Copyright>Copyright Martin Kramer (https://www.lostindetails.com)</Copyright>
   </PropertyGroup>
