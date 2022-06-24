@@ -4,6 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <Version>0.1.0</Version>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageLicenseExpression>MIT OR WTFPL</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>Serilog Sink Metrics MetricsSink</PackageTags>
+    <Authors>Martin Kramer</Authors>
+    <Copyright>Copyright Martin Kramer (https://www.lostindetails.com)</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
